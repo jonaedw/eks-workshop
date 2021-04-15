@@ -34,6 +34,8 @@ EoF
 Run a sample Kubernetes Job using the `whalesay` image.
 
 ```bash
+cd ~/environment/batch_policy/
+
 kubectl apply -f job-whalesay.yaml
 ```
 
